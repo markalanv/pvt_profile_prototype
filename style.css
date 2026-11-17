@@ -38,4 +38,81 @@ margin: 20px 0;
 padding: 15px;
 background: #f0f0f5;
 border-radius: 8px;
-font-size:
+font-size: 14px;
+line-height: 1.6;
+color: #444;
+white-space: pre-line;
+max-height: 120px;
+overflow-y: auto;
+}
+
+.follow-btn {
+background: #3b82f6;
+color: white;
+padding: 12px 24px;
+border: none;
+border-radius: 8px;
+font-weight: bold;
+cursor: pointer;
+transition: background 0.2s;
+}
+
+.follow-btn:hover {
+background: #2c75e5;
+}
+
+.unlock-btn {
+background: #d1f4f4;
+color: #1f8a8a;
+padding: 12px 24px;
+border: none;
+border-radius: 8px;
+font-weight: bold;
+cursor: pointer;
+transition: background 0.2s;
+}
+
+.unlock-btn:hover {
+  background: #a8e6e6;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .profile-card {
+    padding: 20px;
+    width: 95%;
+    max-width: 100%;
+  }
+
+  .lock-icon {
+    font-size: 40px;
+  }
+
+  .private-notes {
+    max-height: 180px;
+    padding: 10px;
+  }
+
+  .follow-btn, .unlock-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+/* Custom Scrollbar (Optional) */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3b82f6;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2c75e5;
+}
