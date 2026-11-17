@@ -1,0 +1,41 @@
+```css
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: #f4f4f9;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+padding: 20px;
+box-sizing: border-box;
+}
+
+.profile-card {
+background: white;
+border-radius: 12px;
+padding: 30px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+width: 90%;
+max-width: 400px;
+text-align: center;
+position: relative;
+}
+
+.lock-icon {
+font-size: 48px;
+color: #3b82f6;
+margin-bottom: 20px;
+}
+
+h2 {
+color: #333;
+margin: 0 0 15px;
+}
+
+.private-notes {
+margin: 20px 0;
+padding: 15px;
+background: #f0f0f5;
+border-radius: 8px;
+font-size:
